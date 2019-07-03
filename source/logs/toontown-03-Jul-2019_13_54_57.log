@@ -1,0 +1,127 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  ttn-dev
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+local
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+16
+21
+14
+13
+18
+19
+22
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+16
+21
+14
+13
+18
+19
+22
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+16
+21
+14
+13
+18
+19
+22
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+16
+21
+14
+13
+18
+19
+22
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Traceback (most recent call last):
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\distributed\ConnectionRepository.py", line 610, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\distributed\ConnectionRepository.py", line 617, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\PythonUtil.py", line 3562, in _exceptionLogged
+    return f(*args, **kArgs)
+  File "otp\distributed\OTPClientRepository.py", line 1870, in handleDatagram
+    self.handler(msgType, di)
+  File "toontown\hood\QuietZoneState.py", line 152, in handleWaitForQuietZoneResponse
+    base.cr.handlePlayGame(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1475, in handlePlayGame
+    self.handleDelete(di)
+  File "toontown\distributed\ToontownClientRepository.py", line 1058, in handleDelete
+    self.deleteObject(doId)
+  File "toontown\distributed\ToontownClientRepository.py", line 1066, in deleteObject
+    obj.detectLeaks()
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\DirectObject.py", line 102, in detectLeaks
+    func('destroyed %s instance is still %s%s' % (self.__class__.__name__, estr, tstr))
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\directnotify\Notifier.py", line 130, in error
+    raise exception(errorString)
+Exception: destroyed DistributedNPCScientist instance is still listening to events: ['SEND_CHAT']
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 234, in run
+    taskMgr.run()
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\task\Task.py", line 514, in run
+    self.step()
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\task\Task.py", line 468, in step
+    self.mgr.poll()
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\distributed\ConnectionRepository.py", line 610, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\distributed\ConnectionRepository.py", line 617, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\PythonUtil.py", line 3562, in _exceptionLogged
+    return f(*args, **kArgs)
+  File "otp\distributed\OTPClientRepository.py", line 1870, in handleDatagram
+    self.handler(msgType, di)
+  File "toontown\hood\QuietZoneState.py", line 152, in handleWaitForQuietZoneResponse
+    base.cr.handlePlayGame(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1475, in handlePlayGame
+    self.handleDelete(di)
+  File "toontown\distributed\ToontownClientRepository.py", line 1058, in handleDelete
+    self.deleteObject(doId)
+  File "toontown\distributed\ToontownClientRepository.py", line 1066, in deleteObject
+    obj.detectLeaks()
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\DirectObject.py", line 102, in detectLeaks
+    func('destroyed %s instance is still %s%s' % (self.__class__.__name__, estr, tstr))
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\directnotify\Notifier.py", line 130, in error
+    raise exception(errorString)
+Exception: destroyed DistributedNPCScientist instance is still listening to events: ['SEND_CHAT']

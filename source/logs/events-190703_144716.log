@@ -1,0 +1,35 @@
+{"_time": "2019-07-03 14:47:16Eastern Daylight Time", "type": "log-opened", "sender": "EventLogger", "msg": "Log opened upon Event Logger startup."}
+{"_time": "2019-07-03 14:47:21Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000000", "remote_address": "127.0.0.1:55076", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 14:48:01Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000000"}
+{"_time": "2019-07-03 14:49:55Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000001", "remote_address": "127.0.0.1:55156", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 14:50:10Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000001"}
+{"_time": "2019-07-03 14:50:44Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000002", "remote_address": "127.0.0.1:55165", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 14:51:01Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000002"}
+{"_time": "2019-07-03 14:52:34Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000003", "remote_address": "127.0.0.1:55199", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 14:52:57Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000003"}
+{"_time": "2019-07-03 14:53:36Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000004", "remote_address": "127.0.0.1:55220", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 14:54:00Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000004"}
+{"_time": "2019-07-03 14:54:30Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000005", "remote_address": "127.0.0.1:55248", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 14:54:56Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000005"}
+{"_time": "2019-07-03 14:55:55Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000006", "remote_address": "127.0.0.1:55275", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 14:56:23Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000006"}
+{"_time": "2019-07-03 14:56:43Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000007", "remote_address": "127.0.0.1:55299", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 14:57:00Eastern Daylight Time", "type": "questTier", "sender": "AIR:1000000", "_1": 100000001, "_2": "50"}
+{"_time": "2019-07-03 14:57:18Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000007"}
+{"_time": "2019-07-03 14:57:18Eastern Daylight Time", "type": "disconnect-reason", "sender": "AIR:1000000", "_1": 100000001, "_2": 3}
+{"_time": "2019-07-03 14:57:18Eastern Daylight Time", "type": "client-exception", "sender": "AIR:1000000", "_1": 100000001, "_2": "toontown.shtiker.TopToonsPage:125, toontown.shtiker.TopToonsPage:70, toontown.shtiker.TopToonsPage:47, toontown.shtiker.ShtikerBook:304, TypeError: C++ object is not yet constructed, or already destructed."}
+{"_time": "2019-07-03 14:57:18Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 100000001, "_2": ""}
+{"_time": "2019-07-03 14:57:53Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000008", "remote_address": "127.0.0.1:55330", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 14:58:20Eastern Daylight Time", "type": "questTier", "sender": "AIR:1000000", "_1": 100000001, "_2": "50"}
+{"_time": "2019-07-03 14:58:39Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000008"}
+{"_time": "2019-07-03 14:58:39Eastern Daylight Time", "type": "disconnect-reason", "sender": "AIR:1000000", "_1": 100000001, "_2": 3}
+{"_time": "2019-07-03 14:58:39Eastern Daylight Time", "type": "client-exception", "sender": "AIR:1000000", "_1": 100000001, "_2": "toontown.shtiker.TopToonsPage:173, toontown.shtiker.TopToonsPage:126, toontown.shtiker.TopToonsPage:70, toontown.shtiker.TopToonsPage:47, AttributeError: 'CurrentTabPage' object has no attribute 'curText'"}
+{"_time": "2019-07-03 14:58:39Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 100000001, "_2": ""}
+{"_time": "2019-07-03 14:59:11Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000009", "remote_address": "127.0.0.1:55363", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 14:59:38Eastern Daylight Time", "type": "questTier", "sender": "AIR:1000000", "_1": 100000001, "_2": "50"}
+{"_time": "2019-07-03 15:01:35Eastern Daylight Time", "type": "client-lost", "sender": "Client:1000000009", "reason": "An existing connection was forcibly closed by the remote host"}
+{"_time": "2019-07-03 15:01:35Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 100000001, "_2": ""}
+{"_time": "2019-07-03 15:02:29Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000010", "remote_address": "127.0.0.1:55445", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 15:02:51Eastern Daylight Time", "type": "questTier", "sender": "AIR:1000000", "_1": 100000001, "_2": "50"}
+{"_time": "2019-07-03 15:03:51Eastern Daylight Time", "type": "client-lost", "sender": "Client:1000000010", "reason": "An existing connection was forcibly closed by the remote host"}
+{"_time": "2019-07-03 15:03:51Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 100000001, "_2": ""}

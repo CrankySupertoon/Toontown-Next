@@ -1,0 +1,7 @@
+{"_time": "2019-07-03 15:08:56Eastern Daylight Time", "type": "log-opened", "sender": "EventLogger", "msg": "Log opened upon Event Logger startup."}
+{"_time": "2019-07-03 15:09:07Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000000", "remote_address": "127.0.0.1:55609", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 15:09:40Eastern Daylight Time", "type": "questTier", "sender": "AIR:1000000", "_1": 100000001, "_2": "50"}
+{"_time": "2019-07-03 15:10:18Eastern Daylight Time", "type": "disconnect-reason", "sender": "AIR:1000000", "_1": 100000001, "_2": 3}
+{"_time": "2019-07-03 15:10:18Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000000"}
+{"_time": "2019-07-03 15:10:19Eastern Daylight Time", "type": "client-exception", "sender": "AIR:1000000", "_1": 100000001, "_2": "toontown.shtiker.OptionsPage:105, toontown.shtiker.OptionsPage:81, toontown.shtiker.ShtikerBook:304, toontown.hood.Place:318, AttributeError: 'OptionsPage' object has no attribute 'optionsTabPage'"}
+{"_time": "2019-07-03 15:10:19Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 100000001, "_2": ""}

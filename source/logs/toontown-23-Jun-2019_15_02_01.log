@@ -1,0 +1,72 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+TTLocalizer: Running in language: english
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  ttn-dev
+NodePath.iPosHpr() is deprecated.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\showbase\ExceptionVarDump.py", line 135, in _excepthookDumpVars
+    attr = getattr(obj, attrName, _AttrNotFound)
+TypeError: 'panda3d.core.LPoint3f' object has no attribute 'toonNp'
+
+Original exception was:
+Traceback (most recent call last):
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\showbase\EventManager.py", line 46, in eventLoopTask
+    self.doEvents()
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\showbase\EventManager.py", line 40, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\showbase\EventManager.py", line 97, in processEvent
+    messenger.send(eventName, paramList)
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\showbase\Messenger.py", line 326, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\showbase\Messenger.py", line 411, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\gui\DirectButton.py", line 103, in commandFunc
+    self['command'](*self['extraArgs'])
+  File "toontown\login\NewPickAToon.py", line 282, in startMAT
+    messenger.send(self.doneEvent, [doneStatus])
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\showbase\Messenger.py", line 326, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\showbase\Messenger.py", line 411, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown\distributed\ToontownClientRepository.py", line 271, in __handleAvatarChooserDone
+    self.loginFSM.request('createAvatar', [avList, index])
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\fsm\ClassicFSM.py", line 281, in request
+    exitArgList)
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\fsm\ClassicFSM.py", line 228, in __transition
+    self.__enter(aState, enterArgList)
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\fsm\ClassicFSM.py", line 214, in __enter
+    aState.enter(argList)
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\fsm\State.py", line 202, in enter
+    self.__enterFunc(*argList)
+  File "toontown\distributed\ToontownClientRepository.py", line 309, in enterCreateAvatar
+    self.avCreate.enter()
+  File "toontown\makeatoon\MakeAToon.py", line 201, in enter
+    self.globalGUI.find('**/body').setTexture('phase_3/maps/makeatoon')
+TypeError: NodePath.set_texture() argument 1 must be panda3d.core.Texture, not str
+direct.gui.DirectGuiBase:1031, direct.gui.DirectFrame:57, toontown.toontowngui.ToontownLoadingScreen:51, toontown.toonbase.ToontownLoader:21, NameError: global name 'base' is not defined
+Traceback (most recent call last):
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\python\lib\runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\python\lib\runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "H:\Toontown Sources\ttn\source\toontown\toonbase\ToontownStart.py", line 113, in <module>
+    run()
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\showbase\ShowBase.py", line 55, in legacyRun
+    builtins.base.run()
+  File "otp\otpbase\OTPBase.py", line 248, in run
+    self.destroy()
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\showbase\ShowBase.py", line 539, in destroy
+    self.loader.destroy()
+  File "toontown\toonbase\ToontownLoader.py", line 21, in destroy
+    self.loadingScreen.destroy()
+  File "toontown\toontowngui\ToontownLoadingScreen.py", line 51, in destroy
+    self.tip.destroy()
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\gui\DirectFrame.py", line 57, in destroy
+    DirectGuiWidget.destroy(self)
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\gui\DirectGuiBase.py", line 1031, in destroy
+    if hasattr(base, 'guiItems'):
+NameError: global name 'base' is not defined

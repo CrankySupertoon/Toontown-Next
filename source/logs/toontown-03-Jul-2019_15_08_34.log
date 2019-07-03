@@ -1,0 +1,103 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  ttn-dev
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+local
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+16
+21
+18
+14
+19
+13
+22
+Traceback (most recent call last):
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\EventManager.py", line 46, in eventLoopTask
+    self.doEvents()
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\EventManager.py", line 40, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\EventManager.py", line 99, in processEvent
+    messenger.send(eventName)
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\Messenger.py", line 326, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\Messenger.py", line 411, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown\safezone\PublicWalk.py", line 59, in __handleOptionsEntry
+    messenger.send(self.doneEvent, [doneStatus])
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\Messenger.py", line 326, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\Messenger.py", line 411, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown\hood\Place.py", line 255, in handleWalkDone
+    self.fsm.request('stickerBook', [base.localAvatar.optionsPage])
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\fsm\ClassicFSM.py", line 281, in request
+    exitArgList)
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\fsm\ClassicFSM.py", line 228, in __transition
+    self.__enter(aState, enterArgList)
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\fsm\ClassicFSM.py", line 214, in __enter
+    aState.enter(argList)
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\fsm\State.py", line 202, in enter
+    self.__enterFunc(*argList)
+  File "toontown\hood\Place.py", line 318, in enterStickerBook
+    base.localAvatar.book.setPage(page)
+  File "toontown\shtiker\ShtikerBook.py", line 304, in setPage
+    page.enter()
+  File "toontown\shtiker\OptionsPage.py", line 81, in enter
+    self.setMode(PageMode.Options, updateAnyways=1)
+  File "toontown\shtiker\OptionsPage.py", line 105, in setMode
+    self.optionsTabPage.enter()
+AttributeError: 'OptionsPage' object has no attribute 'optionsTabPage'
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 234, in run
+    taskMgr.run()
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\task\Task.py", line 514, in run
+    self.step()
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\task\Task.py", line 468, in step
+    self.mgr.poll()
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\EventManager.py", line 46, in eventLoopTask
+    self.doEvents()
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\EventManager.py", line 40, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\EventManager.py", line 99, in processEvent
+    messenger.send(eventName)
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\Messenger.py", line 326, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\Messenger.py", line 411, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown\safezone\PublicWalk.py", line 59, in __handleOptionsEntry
+    messenger.send(self.doneEvent, [doneStatus])
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\Messenger.py", line 326, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\Messenger.py", line 411, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown\hood\Place.py", line 255, in handleWalkDone
+    self.fsm.request('stickerBook', [base.localAvatar.optionsPage])
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\fsm\ClassicFSM.py", line 281, in request
+    exitArgList)
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\fsm\ClassicFSM.py", line 228, in __transition
+    self.__enter(aState, enterArgList)
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\fsm\ClassicFSM.py", line 214, in __enter
+    aState.enter(argList)
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\fsm\State.py", line 202, in enter
+    self.__enterFunc(*argList)
+  File "toontown\hood\Place.py", line 318, in enterStickerBook
+    base.localAvatar.book.setPage(page)
+  File "toontown\shtiker\ShtikerBook.py", line 304, in setPage
+    page.enter()
+  File "toontown\shtiker\OptionsPage.py", line 81, in enter
+    self.setMode(PageMode.Options, updateAnyways=1)
+  File "toontown\shtiker\OptionsPage.py", line 105, in setMode
+    self.optionsTabPage.enter()
+AttributeError: 'OptionsPage' object has no attribute 'optionsTabPage'

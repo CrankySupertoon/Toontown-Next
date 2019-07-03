@@ -1,0 +1,4 @@
+{"_time": "2019-07-03 15:32:01Eastern Daylight Time", "type": "log-opened", "sender": "EventLogger", "msg": "Log opened upon Event Logger startup."}
+{"_time": "2019-07-03 15:33:31Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000000", "remote_address": "127.0.0.1:55937", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 15:33:52Eastern Daylight Time", "type": "ai-exception", "sender": "AIR:1000000", "_1": 1000000, "_2": 0, "_3": "direct.directnotify.Notifier:130, toontown.uberdog.ShardAPIManagerAI:56, direct.task.Task:468, direct.task.Task:539, Exception: Timeout waiting for UD sync, leaving..."}
+{"_time": "2019-07-03 15:34:06Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000000"}

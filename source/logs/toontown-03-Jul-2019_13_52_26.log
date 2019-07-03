@@ -1,0 +1,91 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  ttn-dev
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+local
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+16
+21
+14
+13
+18
+19
+22
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Traceback (most recent call last):
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\EventManager.py", line 46, in eventLoopTask
+    self.doEvents()
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\EventManager.py", line 40, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\EventManager.py", line 97, in processEvent
+    messenger.send(eventName, paramList)
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\Messenger.py", line 326, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\Messenger.py", line 411, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\gui\DirectButton.py", line 103, in commandFunc
+    self['command'](*self['extraArgs'])
+  File "toontown\shtiker\ShtikerBook.py", line 197, in goToPage
+    self.setPage(page)
+  File "toontown\shtiker\ShtikerBook.py", line 304, in setPage
+    page.enter()
+  File "toontown\shtiker\FishPage.py", line 27, in enter
+    self.setMode(self.mode, 1)
+  File "toontown\shtiker\FishPage.py", line 114, in setMode
+    self.createFishPicker()
+  File "toontown\shtiker\FishPage.py", line 69, in createFishPicker
+    self.picker = FishPicker.FishPicker(self)
+  File "toontown\fishing\FishPicker.py", line 13, in __init__
+    self.parent = parent
+AttributeError: attribute 'parent' of 'panda3d.core.NodePath' objects is not writable
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 234, in run
+    taskMgr.run()
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\task\Task.py", line 514, in run
+    self.step()
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\task\Task.py", line 468, in step
+    self.mgr.poll()
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\EventManager.py", line 46, in eventLoopTask
+    self.doEvents()
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\EventManager.py", line 40, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\EventManager.py", line 97, in processEvent
+    messenger.send(eventName, paramList)
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\Messenger.py", line 326, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\Messenger.py", line 411, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\gui\DirectButton.py", line 103, in commandFunc
+    self['command'](*self['extraArgs'])
+  File "toontown\shtiker\ShtikerBook.py", line 197, in goToPage
+    self.setPage(page)
+  File "toontown\shtiker\ShtikerBook.py", line 304, in setPage
+    page.enter()
+  File "toontown\shtiker\FishPage.py", line 27, in enter
+    self.setMode(self.mode, 1)
+  File "toontown\shtiker\FishPage.py", line 114, in setMode
+    self.createFishPicker()
+  File "toontown\shtiker\FishPage.py", line 69, in createFishPicker
+    self.picker = FishPicker.FishPicker(self)
+  File "toontown\fishing\FishPicker.py", line 13, in __init__
+    self.parent = parent
+AttributeError: attribute 'parent' of 'panda3d.core.NodePath' objects is not writable

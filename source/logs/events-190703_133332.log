@@ -1,0 +1,104 @@
+{"_time": "2019-07-03 13:33:32Eastern Daylight Time", "type": "log-opened", "sender": "EventLogger", "msg": "Log opened upon Event Logger startup."}
+{"_time": "2019-07-03 13:33:47Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000000", "remote_address": "127.0.0.1:53800", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 13:34:03Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000000"}
+{"_time": "2019-07-03 13:35:32Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000001", "remote_address": "127.0.0.1:53862", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 13:35:45Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000001"}
+{"_time": "2019-07-03 13:37:21Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1002404, "_2": ""}
+{"_time": "2019-07-03 13:37:31Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000002", "remote_address": "127.0.0.1:53963", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 13:37:41Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000002"}
+{"_time": "2019-07-03 13:38:42Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000003", "remote_address": "127.0.0.1:54010", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 13:38:52Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000003"}
+{"_time": "2019-07-03 13:39:09Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000004", "remote_address": "127.0.0.1:54035", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 13:39:23Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000004"}
+{"_time": "2019-07-03 13:39:42Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000005", "remote_address": "127.0.0.1:54058", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 13:39:51Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000005"}
+{"_time": "2019-07-03 13:40:09Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000006", "remote_address": "127.0.0.1:54075", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 13:40:20Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1002356, "_2": ""}
+{"_time": "2019-07-03 13:40:21Eastern Daylight Time", "type": "questTier", "sender": "AIR:1000000", "_1": 100000001, "_2": "0"}
+{"_time": "2019-07-03 13:40:31Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000006"}
+{"_time": "2019-07-03 13:40:31Eastern Daylight Time", "type": "disconnect-reason", "sender": "AIR:1000000", "_1": 100000001, "_2": 3}
+{"_time": "2019-07-03 13:40:31Eastern Daylight Time", "type": "client-exception", "sender": "AIR:1000000", "_1": 100000001, "_2": "toontown.fishing.BingoCardGui:35, toontown.fishing.DistributedPondBingoManager:46, direct.distributed.ClientRepositoryBase:262, otp.distributed.OTPClientRepository:1929, AttributeError: attribute 'parent' of 'panda3d.core.NodePath' objects is not writable"}
+{"_time": "2019-07-03 13:40:31Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 100000001, "_2": ""}
+{"_time": "2019-07-03 13:43:31Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000007", "remote_address": "127.0.0.1:54175", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 13:43:44Eastern Daylight Time", "type": "questTier", "sender": "AIR:1000000", "_1": 100000001, "_2": "0"}
+{"_time": "2019-07-03 13:43:49Eastern Daylight Time", "type": "disconnect-reason", "sender": "AIR:1000000", "_1": 100000001, "_2": 3}
+{"_time": "2019-07-03 13:43:49Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000007"}
+{"_time": "2019-07-03 13:43:49Eastern Daylight Time", "type": "client-exception", "sender": "AIR:1000000", "_1": 100000001, "_2": "toontown.fishing.BingoCardGui:35, toontown.fishing.DistributedPondBingoManager:46, direct.distributed.ClientRepositoryBase:262, otp.distributed.OTPClientRepository:1929, AttributeError: attribute 'parent' of 'panda3d.core.NodePath' objects is not writable"}
+{"_time": "2019-07-03 13:43:49Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 100000001, "_2": ""}
+{"_time": "2019-07-03 13:44:39Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000008", "remote_address": "127.0.0.1:54183", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 13:45:17Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000008"}
+{"_time": "2019-07-03 13:45:36Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000009", "remote_address": "127.0.0.1:54187", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 13:45:46Eastern Daylight Time", "type": "questTier", "sender": "AIR:1000000", "_1": 100000001, "_2": "0"}
+{"_time": "2019-07-03 13:45:49Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000009"}
+{"_time": "2019-07-03 13:45:49Eastern Daylight Time", "type": "disconnect-reason", "sender": "AIR:1000000", "_1": 100000001, "_2": 3}
+{"_time": "2019-07-03 13:45:49Eastern Daylight Time", "type": "client-exception", "sender": "AIR:1000000", "_1": 100000001, "_2": "toontown.toontowngui.ToontownLoadingScreen:75, toontown.toonbase.ToontownLoader:64, toontown.distributed.PlayGame:276, direct.showbase.Messenger:413, AttributeError: ToontownLoadingScreen instance has no attribute 'name'"}
+{"_time": "2019-07-03 13:45:49Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 100000001, "_2": ""}
+{"_time": "2019-07-03 13:46:19Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000010", "remote_address": "127.0.0.1:54197", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 13:46:28Eastern Daylight Time", "type": "questTier", "sender": "AIR:1000000", "_1": 100000001, "_2": "0"}
+{"_time": "2019-07-03 13:46:33Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000010"}
+{"_time": "2019-07-03 13:46:33Eastern Daylight Time", "type": "disconnect-reason", "sender": "AIR:1000000", "_1": 100000001, "_2": 3}
+{"_time": "2019-07-03 13:46:33Eastern Daylight Time", "type": "client-exception", "sender": "AIR:1000000", "_1": 100000001, "_2": "toontown.fishing.BingoCardGui:35, toontown.fishing.DistributedPondBingoManager:46, direct.distributed.ClientRepositoryBase:262, otp.distributed.OTPClientRepository:1929, AttributeError: attribute 'parent' of 'panda3d.core.NodePath' objects is not writable"}
+{"_time": "2019-07-03 13:46:33Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 100000001, "_2": ""}
+{"_time": "2019-07-03 13:47:22Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000011", "remote_address": "127.0.0.1:54208", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 13:47:32Eastern Daylight Time", "type": "questTier", "sender": "AIR:1000000", "_1": 100000001, "_2": "0"}
+{"_time": "2019-07-03 13:47:36Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000011"}
+{"_time": "2019-07-03 13:47:37Eastern Daylight Time", "type": "disconnect-reason", "sender": "AIR:1000000", "_1": 100000001, "_2": 3}
+{"_time": "2019-07-03 13:47:37Eastern Daylight Time", "type": "client-exception", "sender": "AIR:1000000", "_1": 100000001, "_2": "toontown.fishing.BingoCardGui:35, toontown.fishing.DistributedPondBingoManager:46, direct.distributed.ClientRepositoryBase:262, otp.distributed.OTPClientRepository:1929, AttributeError: attribute 'parent' of 'panda3d.core.NodePath' objects is not writable"}
+{"_time": "2019-07-03 13:47:37Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 100000001, "_2": ""}
+{"_time": "2019-07-03 13:48:21Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000012", "remote_address": "127.0.0.1:54213", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 13:48:30Eastern Daylight Time", "type": "questTier", "sender": "AIR:1000000", "_1": 100000001, "_2": "0"}
+{"_time": "2019-07-03 13:48:35Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000012"}
+{"_time": "2019-07-03 13:48:35Eastern Daylight Time", "type": "disconnect-reason", "sender": "AIR:1000000", "_1": 100000001, "_2": 3}
+{"_time": "2019-07-03 13:48:35Eastern Daylight Time", "type": "client-exception", "sender": "AIR:1000000", "_1": 100000001, "_2": "toontown.safezone.DistributedRealTime:110, direct.task.Task:468, direct.task.Task:539, otp.otpbase.OTPBase:245, NameError: global name 'Vec4' is not defined"}
+{"_time": "2019-07-03 13:48:35Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 100000001, "_2": ""}
+{"_time": "2019-07-03 13:52:31Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000013", "remote_address": "127.0.0.1:54322", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 13:52:41Eastern Daylight Time", "type": "questTier", "sender": "AIR:1000000", "_1": 100000001, "_2": "0"}
+{"_time": "2019-07-03 13:54:03Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000013"}
+{"_time": "2019-07-03 13:54:03Eastern Daylight Time", "type": "disconnect-reason", "sender": "AIR:1000000", "_1": 100000001, "_2": 3}
+{"_time": "2019-07-03 13:54:03Eastern Daylight Time", "type": "client-exception", "sender": "AIR:1000000", "_1": 100000001, "_2": "toontown.fishing.FishPicker:13, toontown.shtiker.FishPage:69, toontown.shtiker.FishPage:114, toontown.shtiker.FishPage:27, AttributeError: attribute 'parent' of 'panda3d.core.NodePath' objects is not writable"}
+{"_time": "2019-07-03 13:54:03Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 100000001, "_2": ""}
+{"_time": "2019-07-03 13:55:03Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000014", "remote_address": "127.0.0.1:54339", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 13:55:19Eastern Daylight Time", "type": "questTier", "sender": "AIR:1000000", "_1": 100000001, "_2": "0"}
+{"_time": "2019-07-03 13:55:31Eastern Daylight Time", "type": "setMaxHp", "sender": "AIR:1000000", "_1": 100000001, "_2": "137"}
+{"_time": "2019-07-03 13:55:31Eastern Daylight Time", "type": "questTier", "sender": "AIR:1000000", "_1": 100000001, "_2": "50"}
+{"_time": "2019-07-03 13:55:31Eastern Daylight Time", "type": "magic-word", "sender": "AIR:1000000", "_1": 100000001, "_2": 500, "_3": 100000001, "_4": 500, "_5": "maxToon", "_6": "Maxed your toon."}
+{"_time": "2019-07-03 13:55:52Eastern Daylight Time", "type": "magic-word", "sender": "AIR:1000000", "_1": 100000001, "_2": 500, "_3": 100000001, "_4": 500, "_5": "inventory restock 6 6", "_6": null}
+{"_time": "2019-07-03 13:56:09Eastern Daylight Time", "type": "magic-word", "sender": "AIR:1000000", "_1": 100000001, "_2": 500, "_3": 100000001, "_4": 500, "_5": "beans", "_6": null}
+{"_time": "2019-07-03 13:56:12Eastern Daylight Time", "type": "magic-word", "sender": "AIR:1000000", "_1": 100000001, "_2": 500, "_3": 100000001, "_4": 500, "_5": "bean 80", "_6": null}
+{"_time": "2019-07-03 13:56:14Eastern Daylight Time", "type": "magic-word", "sender": "AIR:1000000", "_1": 100000001, "_2": 500, "_3": 100000001, "_4": 500, "_5": "beans 250", "_6": null}
+{"_time": "2019-07-03 13:56:16Eastern Daylight Time", "type": "magic-word", "sender": "AIR:1000000", "_1": 100000001, "_2": 500, "_3": 100000001, "_4": 500, "_5": "cash 250", "_6": null}
+{"_time": "2019-07-03 13:56:18Eastern Daylight Time", "type": "magic-word", "sender": "AIR:1000000", "_1": 100000001, "_2": 500, "_3": 100000001, "_4": 500, "_5": "help", "_6": null}
+{"_time": "2019-07-03 13:56:19Eastern Daylight Time", "type": "magic-word", "sender": "AIR:1000000", "_1": 100000001, "_2": 500, "_3": 100000001, "_4": 500, "_5": "money", "_6": null}
+{"_time": "2019-07-03 13:56:30Eastern Daylight Time", "type": "setMaxHp", "sender": "AIR:1000000", "_1": 100000001, "_2": "137"}
+{"_time": "2019-07-03 13:56:30Eastern Daylight Time", "type": "questTier", "sender": "AIR:1000000", "_1": 100000001, "_2": "50"}
+{"_time": "2019-07-03 13:56:35Eastern Daylight Time", "type": "questTier", "sender": "AIR:1000000", "_1": 100000001, "_2": "50"}
+{"_time": "2019-07-03 13:57:03Eastern Daylight Time", "type": "magic-word", "sender": "AIR:1000000", "_1": 100000001, "_2": 500, "_3": 100000001, "_4": 500, "_5": "unites", "_6": "Restocked Cranky Supertoon's unites"}
+{"_time": "2019-07-03 13:57:58Eastern Daylight Time", "type": "questTier", "sender": "AIR:1000000", "_1": 100000001, "_2": "50"}
+{"_time": "2019-07-03 13:58:56Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000014"}
+{"_time": "2019-07-03 13:58:56Eastern Daylight Time", "type": "disconnect-reason", "sender": "AIR:1000000", "_1": 100000001, "_2": 3}
+{"_time": "2019-07-03 13:58:56Eastern Daylight Time", "type": "client-exception", "sender": "AIR:1000000", "_1": 100000001, "_2": "direct.directnotify.Notifier:130, direct.showbase.DirectObject:102, toontown.distributed.ToontownClientRepository:1066, toontown.distributed.ToontownClientRepository:1058, Exception: destroyed DistributedNPCScientist instance is still listening to events: ['SEND_CHAT']"}
+{"_time": "2019-07-03 13:58:56Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 100000001, "_2": ""}
+{"_time": "2019-07-03 13:59:50Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000015", "remote_address": "127.0.0.1:54368", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 14:00:01Eastern Daylight Time", "type": "questTier", "sender": "AIR:1000000", "_1": 100000001, "_2": "50"}
+{"_time": "2019-07-03 14:00:39Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000015"}
+{"_time": "2019-07-03 14:00:39Eastern Daylight Time", "type": "disconnect-reason", "sender": "AIR:1000000", "_1": 100000001, "_2": 3}
+{"_time": "2019-07-03 14:00:39Eastern Daylight Time", "type": "client-exception", "sender": "AIR:1000000", "_1": 100000001, "_2": "toontown.toon.DistributedNPCPetclerk:136, otp.distributed.OTPClientRepository:2183, otp.distributed.OTPClientRepository:2175, otp.distributed.OTPClientRepository:1473, AttributeError: 'panda3d.core.NodePath' object has no attribute 'lerpPosHpr'"}
+{"_time": "2019-07-03 14:00:39Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 100000001, "_2": ""}
+{"_time": "2019-07-03 14:04:49Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000016", "remote_address": "127.0.0.1:54495", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 14:05:29Eastern Daylight Time", "type": "questTier", "sender": "AIR:1000000", "_1": 100000001, "_2": "50"}
+{"_time": "2019-07-03 14:06:54Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000016"}
+{"_time": "2019-07-03 14:06:54Eastern Daylight Time", "type": "disconnect-reason", "sender": "AIR:1000000", "_1": 100000001, "_2": 3}
+{"_time": "2019-07-03 14:06:54Eastern Daylight Time", "type": "client-exception", "sender": "AIR:1000000", "_1": 100000001, "_2": "toontown.fishing.FishPicker:17, toontown.shtiker.FishPage:69, toontown.shtiker.FishPage:114, toontown.shtiker.FishPage:27, TypeError: C++ object is not yet constructed, or already destructed."}
+{"_time": "2019-07-03 14:06:54Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 100000001, "_2": ""}
+{"_time": "2019-07-03 14:07:44Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000017", "remote_address": "127.0.0.1:54519", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 14:07:57Eastern Daylight Time", "type": "questTier", "sender": "AIR:1000000", "_1": 100000001, "_2": "50"}
+{"_time": "2019-07-03 14:11:08Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000017"}
+{"_time": "2019-07-03 14:11:08Eastern Daylight Time", "type": "disconnect-reason", "sender": "AIR:1000000", "_1": 100000001, "_2": 3}
+{"_time": "2019-07-03 14:11:08Eastern Daylight Time", "type": "client-exception", "sender": "AIR:1000000", "_1": 100000001, "_2": "toontown.fishing.FishPicker:44, toontown.shtiker.FishPage:69, toontown.shtiker.FishPage:114, toontown.shtiker.FishPage:27, NameError: global name 'optiondefs' is not defined"}
+{"_time": "2019-07-03 14:11:08Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 100000001, "_2": ""}
+{"_time": "2019-07-03 14:11:50Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000018", "remote_address": "127.0.0.1:54545", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 14:12:18Eastern Daylight Time", "type": "questTier", "sender": "AIR:1000000", "_1": 100000001, "_2": "50"}
+{"_time": "2019-07-03 14:12:41Eastern Daylight Time", "type": "disconnect-reason", "sender": "AIR:1000000", "_1": 100000001, "_2": 3}
+{"_time": "2019-07-03 14:12:41Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000018"}
+{"_time": "2019-07-03 14:12:41Eastern Daylight Time", "type": "client-exception", "sender": "AIR:1000000", "_1": 100000001, "_2": "toontown.fishing.FishPicker:13, toontown.shtiker.FishPage:69, toontown.shtiker.FishPage:114, toontown.shtiker.FishPage:27, AttributeError: attribute 'parent' of 'panda3d.core.NodePath' objects is not writable"}
+{"_time": "2019-07-03 14:12:41Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 100000001, "_2": ""}

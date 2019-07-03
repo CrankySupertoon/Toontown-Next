@@ -1,0 +1,2 @@
+{"_time": "2019-07-03 14:31:15Eastern Daylight Time", "type": "log-opened", "sender": "EventLogger", "msg": "Log opened upon Event Logger startup."}
+{"_time": "2019-07-03 14:31:35Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000000", "remote_address": "127.0.0.1:54865", "local_address": "127.0.0.1:7198"}

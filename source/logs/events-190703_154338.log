@@ -1,0 +1,6 @@
+{"_time": "2019-07-03 15:43:38Eastern Daylight Time", "type": "log-opened", "sender": "EventLogger", "msg": "Log opened upon Event Logger startup."}
+{"_time": "2019-07-03 15:43:48Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000000", "remote_address": "127.0.0.1:56057", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-07-03 15:44:26Eastern Daylight Time", "type": "questTier", "sender": "AIR:1000000", "_1": 100000001, "_2": "50"}
+{"_time": "2019-07-03 15:45:40Eastern Daylight Time", "type": "disconnect-reason", "sender": "AIR:1000000", "_1": 100000001, "_2": 2}
+{"_time": "2019-07-03 15:45:41Eastern Daylight Time", "type": "client-lost", "sender": "Client:1000000000", "reason": "An existing connection was forcibly closed by the remote host"}
+{"_time": "2019-07-03 15:45:41Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 100000001, "_2": ""}

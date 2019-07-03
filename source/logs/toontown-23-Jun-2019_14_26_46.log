@@ -1,0 +1,62 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+TTLocalizer: Running in language: english
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  ttn-dev
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+Exception occurred while processing avatarChooserDone of fadeTask:
+fadeTask:
+  0.000 fadeTask {
+  0.000   *Func-reparentTo-1
+  0.000   *Func-showThrough-2
+  0.000   LerpColorInterval-1: color to 0 0 0 1 dur 0.5
+  0.500   *avatarChooserDone
+  0.500 }
+
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\showbase\ExceptionVarDump.py", line 135, in _excepthookDumpVars
+    attr = getattr(obj, attrName, _AttrNotFound)
+TypeError: 'panda3d.core.LPoint3f' object has no attribute 'toonNp'
+
+Original exception was:
+Traceback (most recent call last):
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\showbase\ShowBase.py", line 1863, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\interval\IntervalManager.py", line 94, in step
+    self.__doPythonCallbacks()
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\interval\IntervalManager.py", line 122, in __doPythonCallbacks
+    self.ivals[index].privPostEvent()
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\interval\MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\interval\MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\interval\Interval.py", line 209, in privDoEvent
+    self.privInstant()
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\interval\FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\interval\FunctionInterval.py", line 101, in sendFunc
+    messenger.send(event, sentArgs)
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\showbase\Messenger.py", line 326, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\showbase\Messenger.py", line 411, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown\distributed\ToontownClientRepository.py", line 271, in __handleAvatarChooserDone
+    self.loginFSM.request('createAvatar', [avList, index])
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\fsm\ClassicFSM.py", line 281, in request
+    exitArgList)
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\fsm\ClassicFSM.py", line 228, in __transition
+    self.__enter(aState, enterArgList)
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\fsm\ClassicFSM.py", line 214, in __enter
+    aState.enter(argList)
+  File "H:\Toontown Sources\ttn\source\dependencies\panda\direct\fsm\State.py", line 202, in enter
+    self.__enterFunc(*argList)
+  File "toontown\distributed\ToontownClientRepository.py", line 309, in enterCreateAvatar
+    self.avCreate.enter()
+  File "toontown\makeatoon\MakeAToon.py", line 201, in enter
+    self.globalGUI.find('**/body').setTexture('phase_3/maps/makeatoon')
+TypeError: NodePath.set_texture() argument 1 must be panda3d.core.Texture, not str
+direct.gui.DirectGuiBase:1031, direct.gui.DirectFrame:57, toontown.toontowngui.ToontownLoadingScreen:51, toontown.toonbase.ToontownLoader:21, NameError: global name 'base' is not defined

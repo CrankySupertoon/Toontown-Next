@@ -1,0 +1,23 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  ttn-dev
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+local
+Traceback (most recent call last):
+  File "toontown\safezone\DistributedRealTime.py", line 110, in __dayTimeTask
+    LerpColorScaleInterval(base.cr.playGame.hood.loader.geom, ToontownGlobals.HALF_DAY_PERIOD, Vec4(1, 0.6, 0.6, 1)),
+NameError: global name 'Vec4' is not defined
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 234, in run
+    taskMgr.run()
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\task\Task.py", line 514, in run
+    self.step()
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\task\Task.py", line 468, in step
+    self.mgr.poll()
+  File "toontown\safezone\DistributedRealTime.py", line 110, in __dayTimeTask
+    LerpColorScaleInterval(base.cr.playGame.hood.loader.geom, ToontownGlobals.HALF_DAY_PERIOD, Vec4(1, 0.6, 0.6, 1)),
+NameError: global name 'Vec4' is not defined

@@ -1,0 +1,67 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  ttn-dev
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+local
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+16
+21
+14
+13
+18
+19
+22
+Traceback (most recent call last):
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\distributed\ConnectionRepository.py", line 610, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\distributed\ConnectionRepository.py", line 617, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\PythonUtil.py", line 3562, in _exceptionLogged
+    return f(*args, **kArgs)
+  File "otp\distributed\OTPClientRepository.py", line 1870, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1473, in handlePlayGame
+    self.handleUpdateField(di)
+  File "otp\distributed\OTPClientRepository.py", line 2175, in handleUpdateField
+    self.__doUpdate(doId, di, ovUpdated)
+  File "otp\distributed\OTPClientRepository.py", line 2183, in __doUpdate
+    do.dclass.receiveUpdate(do, di)
+  File "toontown\toon\DistributedNPCPetclerk.py", line 136, in setMovie
+    camera.lerpPosHpr(-5, 9, base.localAvatar.getHeight() - 0.5, -150, -2, 0, 1, other=self, blendType='easeOut')
+AttributeError: 'panda3d.core.NodePath' object has no attribute 'lerpPosHpr'
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 234, in run
+    taskMgr.run()
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\task\Task.py", line 514, in run
+    self.step()
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\task\Task.py", line 468, in step
+    self.mgr.poll()
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\distributed\ConnectionRepository.py", line 610, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\distributed\ConnectionRepository.py", line 617, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "H:\Toontown\Toontown Sources\Toontown-Next\source\dependencies\panda\direct\showbase\PythonUtil.py", line 3562, in _exceptionLogged
+    return f(*args, **kArgs)
+  File "otp\distributed\OTPClientRepository.py", line 1870, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1473, in handlePlayGame
+    self.handleUpdateField(di)
+  File "otp\distributed\OTPClientRepository.py", line 2175, in handleUpdateField
+    self.__doUpdate(doId, di, ovUpdated)
+  File "otp\distributed\OTPClientRepository.py", line 2183, in __doUpdate
+    do.dclass.receiveUpdate(do, di)
+  File "toontown\toon\DistributedNPCPetclerk.py", line 136, in setMovie
+    camera.lerpPosHpr(-5, 9, base.localAvatar.getHeight() - 0.5, -150, -2, 0, 1, other=self, blendType='easeOut')
+AttributeError: 'panda3d.core.NodePath' object has no attribute 'lerpPosHpr'

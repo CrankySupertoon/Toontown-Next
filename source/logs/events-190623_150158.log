@@ -1,0 +1,13 @@
+{"_time": "2019-06-23 15:01:58Eastern Daylight Time", "type": "log-opened", "sender": "EventLogger", "msg": "Log opened upon Event Logger startup."}
+{"_time": "2019-06-23 15:02:07Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000000", "remote_address": "127.0.0.1:49994", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-06-23 15:02:14Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000000"}
+{"_time": "2019-06-23 15:02:52Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1001313, "_2": ""}
+{"_time": "2019-06-23 15:03:00Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1001690, "_2": ""}
+{"_time": "2019-06-23 15:03:15Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1001990, "_2": ""}
+{"_time": "2019-06-23 15:03:19Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1001722, "_2": ""}
+{"_time": "2019-06-23 15:04:02Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1001666, "_2": ""}
+{"_time": "2019-06-23 15:04:05Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1001794, "_2": ""}
+{"_time": "2019-06-23 15:04:48Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1002980, "_2": ""}
+{"_time": "2019-06-23 15:04:59Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1003038, "_2": ""}
+{"_time": "2019-06-23 15:05:11Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1002613, "_2": ""}
+{"_time": "2019-06-23 15:05:14Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1000195, "_2": ""}

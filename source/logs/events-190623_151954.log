@@ -1,0 +1,38 @@
+{"_time": "2019-06-23 15:19:54Eastern Daylight Time", "type": "log-opened", "sender": "EventLogger", "msg": "Log opened upon Event Logger startup."}
+{"_time": "2019-06-23 15:20:03Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000000", "remote_address": "127.0.0.1:50332", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-06-23 15:20:36Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000000"}
+{"_time": "2019-06-23 15:21:32Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1002295, "_2": ""}
+{"_time": "2019-06-23 15:21:43Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1002919, "_2": ""}
+{"_time": "2019-06-23 15:22:02Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000001", "remote_address": "127.0.0.1:50341", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-06-23 15:22:25Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000001"}
+{"_time": "2019-06-23 15:23:00Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1002351, "_2": ""}
+{"_time": "2019-06-23 15:23:14Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1001281, "_2": ""}
+{"_time": "2019-06-23 15:23:54Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000002", "remote_address": "127.0.0.1:50348", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-06-23 15:24:25Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000002"}
+{"_time": "2019-06-23 15:25:18Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000003", "remote_address": "127.0.0.1:50357", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-06-23 15:25:34Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1002752, "_2": ""}
+{"_time": "2019-06-23 15:25:42Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000003"}
+{"_time": "2019-06-23 15:26:15Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1002685, "_2": ""}
+{"_time": "2019-06-23 15:26:18Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1002126, "_2": ""}
+{"_time": "2019-06-23 15:26:35Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000004", "remote_address": "127.0.0.1:50362", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-06-23 15:26:50Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1002774, "_2": ""}
+{"_time": "2019-06-23 15:27:02Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000004"}
+{"_time": "2019-06-23 15:27:13Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1002321, "_2": ""}
+{"_time": "2019-06-23 15:27:26Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1002205, "_2": ""}
+{"_time": "2019-06-23 15:27:52Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1002289, "_2": ""}
+{"_time": "2019-06-23 15:28:11Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1001738, "_2": ""}
+{"_time": "2019-06-23 15:28:25Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1002329, "_2": ""}
+{"_time": "2019-06-23 15:28:45Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1001578, "_2": ""}
+{"_time": "2019-06-23 15:28:59Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1002715, "_2": ""}
+{"_time": "2019-06-23 15:29:36Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1002132, "_2": ""}
+{"_time": "2019-06-23 15:29:54Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1001690, "_2": ""}
+{"_time": "2019-06-23 15:31:11Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000005", "remote_address": "127.0.0.1:50421", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-06-23 15:31:14Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1002080, "_2": ""}
+{"_time": "2019-06-23 15:31:23Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1002315, "_2": ""}
+{"_time": "2019-06-23 15:31:33Eastern Daylight Time", "type": "client-lost", "sender": "Client:1000000005", "reason": "An existing connection was forcibly closed by the remote host"}
+{"_time": "2019-06-23 15:32:03Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1002574, "_2": ""}
+{"_time": "2019-06-23 15:32:24Eastern Daylight Time", "type": "client-connected", "sender": "Client:1000000006", "remote_address": "127.0.0.1:50427", "local_address": "127.0.0.1:7198"}
+{"_time": "2019-06-23 15:32:30Eastern Daylight Time", "type": "client-disconnected", "sender": "Client:1000000006"}
+{"_time": "2019-06-23 15:32:49Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1003017, "_2": ""}
+{"_time": "2019-06-23 15:33:09Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1002177, "_2": ""}
+{"_time": "2019-06-23 15:33:36Eastern Daylight Time", "type": "avatarExit", "sender": "AIR:1000000", "_1": 1002144, "_2": ""}
